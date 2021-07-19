@@ -1,9 +1,8 @@
 package br.com.ronald.interfaces;
 
-import br.com.ronald.Models.User;
+import br.com.ronald.models.User;
 
 public abstract interface ICreate {
 	
-	public abstract User createUser(String name, String cpf);
-	
+	public abstract void createUser();
 }

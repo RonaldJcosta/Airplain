@@ -1,8 +1,8 @@
 package br.com.ronald.interfaces;
 
-import br.com.ronald.Models.Reserve;
+import br.com.ronald.models.Reserve;
 
 public interface IReserve {
 	
-	public abstract Reserve reserve(String name);
+	public abstract void reserve(String name);
 }
