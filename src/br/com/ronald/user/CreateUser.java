@@ -20,7 +20,7 @@ public class CreateUser implements ICreate {
 		System.out.println("Cadastro de usuario");
 		System.out.println("Digite o nome do usuario: ");
 		name = in.nextLine();
-		System.out.println("Digite o cpf do usuario, apenas os numeros serão aceitos: ");
+		System.out.println("Digite o cpf do usuario, apenas os numeros serão aceitos': ");
 		cpf = in.nextLine();
 		User user = new User(name, cpf);
 
